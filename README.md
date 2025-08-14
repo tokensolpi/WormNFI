@@ -198,6 +198,7 @@ To configure a custom NTT token, pass your NTT config to the `nttRoutes` helper 
 
 ```ts
 const config: WormholeConnectConfig = {
+  }
   routes: [
     ...nttRoutes({
       tokens: {
